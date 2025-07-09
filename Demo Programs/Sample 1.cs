@@ -5,7 +5,6 @@ namespace Demo_Programs
 {
     public class demo1
     {
-        //sathish
         public void get ()
         { 
             int no1 = 10; float no2 = 5;

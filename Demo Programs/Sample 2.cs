@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BankData;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
@@ -11,31 +12,43 @@ namespace Demo_Programs
     {
         public static void Main(String[] args)
         {
-            bankStatement bankdetails = new bankStatement();
-            bankdetails.value();
-            bankdetails.balance();
-            bankdetails.value();
-            bankdetails.balance();
-            bankdetails.value();
-            bankdetails.balance();
-        }
-        public int sathish ; public int karthi;
+            //    bankStatement bankdetails = new bankStatement();
+            //    bankdetails.value();
+            //    bankdetails.balance();
+            //    bankdetails.value();
+            //    bankdetails.balance();
+            //    bankdetails.value();
+            //    bankdetails.balance();
+            //}
+            //public int sathish ; public int karthi;
 
-        public void value()
-        {
-            Console.WriteLine("Enter a Value ");
-            sathish=karthi=int.Parse(Console.ReadLine());
+            //public void value()
+            //{
+            //    Console.WriteLine("Enter a Value ");
+            //    sathish=karthi=int.Parse(Console.ReadLine());
+            //}
+            //public void balance()
+            //{
+            //    if (sathish > 500)
+            //        Console.WriteLine("Congress Karthi All the Best !!!");
+            //    else if (karthi < 500)
+            //        Console.WriteLine("Congress Sathishwaran All the Best !!!");
+            //    else if (karthi == sathish)
+            //        Console.WriteLine("Both are Same !!!");
+            //    else
+            //        Console.WriteLine("Summa Illa Bro");
+
+            //Bank bank = new Bank();
+            //bank.AccountData();
+            //bank.Withdraw();
+
+            //program1 ifprogramno = new program1();
+            //ifprogramno.ifget();
+            //}
+            Ifmark ifmarkgd = new Ifmark();
+            ifmarkgd.ifgrade();
+
+
         }
-        public void balance()
-        {
-            if (sathish > 500)
-                Console.WriteLine("Congress Karthi All the Best !!!");
-            else if (karthi < 500)
-                Console.WriteLine("Congress Sathishwaran All the Best !!!");
-            else if (karthi == sathish)
-                Console.WriteLine("Both are Same !!!");
-            else
-                Console.WriteLine("Summa Illa Bro");
-        } 
     }
 }
