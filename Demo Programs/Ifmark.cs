@@ -10,13 +10,13 @@ namespace Demo_Programs
 {
     public class Ifmark
     {
-        public int a;
+        public float a;
 
         public void ifgrade()
         {
 label:
             Console.WriteLine("Enter Your Mark");
-            a =int.Parse(Console.ReadLine());
+            a =float.Parse(Console.ReadLine());
 
             {
                 if (a<=100 && a >=0)
@@ -24,7 +24,7 @@ label:
                 {
 
 
-                    if (a < 100 && a > 90)
+                    if (a <= 100 && a > 90)
                     {
                         Console.WriteLine("Your Grade Is A+");
                     }

@@ -1,4 +1,5 @@
 ﻿using BankData;
+using SSLC_Data;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -45,10 +46,40 @@ namespace Demo_Programs
             //program1 ifprogramno = new program1();
             //ifprogramno.ifget();
             //}
-            Ifmark ifmarkgd = new Ifmark();
-            ifmarkgd.ifgrade();
+            //Ifmark ifmarkgd = new Ifmark();
+            //ifmarkgd.ifgrade();
+
+            //Ifall ifallData = new Ifall();
+            //ifallData.ifday();
+
+            //fibon fibon = new fibon();
+            //fibon.newclass();
+
+            //FactoProgram newfactod = new FactoProgram();
+            //newfactod.factGet();
+
+            //AddEven newAddEven = new AddEven();
+            //newAddEven.addGet();
+
+            //Student sslc=new Student();
+
+            //sslc.maksGet();
+            //sslc.maksSet();           
+            //Console.Clear();
+
+            //Multiple signalData = new Multiple();
+            //signalData.multipleGet();
+
+            LeapYear yearData = new LeapYear();
+            yearData.yearGet();
+
+
+
+
+
+
 
 
         }
-    }
+}
 }

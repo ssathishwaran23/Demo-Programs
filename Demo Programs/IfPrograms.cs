@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,21 +15,23 @@ namespace Demo_Programs
         {
             if (no1>no2 && no1>no3)
             {
-                Console.WriteLine(no1);
+                Console.WriteLine(no1 +"No 1 Is Big");
             }
             else if (no2>no3 && no2>no1)
             {
-                Console.WriteLine(no2);
+                Console.WriteLine(no2 +" No 2 Is Big");
             }
             else if (no3>no1 && no3>no2)
             {
-                Console.WriteLine(no3);
+                Console.WriteLine(no3 +" No 3 Is Big");
             }
             else
             {
-
-                Console.WriteLine("All Are Equal");
+               
+                    Console.WriteLine("All Or Not Equal");
             }
+
+        
         }
     }
 }
