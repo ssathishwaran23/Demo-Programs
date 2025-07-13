@@ -70,8 +70,21 @@ namespace Demo_Programs
             //Multiple signalData = new Multiple();
             //signalData.multipleGet();
 
-            LeapYear yearData = new LeapYear();
-            yearData.yearGet();
+            //LeapYear yearData = new LeapYear();
+            //yearData.yearGet();
+
+            //Looping loopingData = new Looping();
+            //loopingData.loopingGet();
+
+            //MonthDay monthDayData = new MonthDay();
+            //monthDayData.monthGet();
+
+            Arraynewclass arrayData =new Arraynewclass();
+            arrayData.arrayGet();arrayData.arraySet();
+
+
+
+
 
 
 

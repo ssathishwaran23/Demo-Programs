@@ -13,7 +13,7 @@ label:
             Console.WriteLine("Enter Year");
             year = int.Parse(Console.ReadLine());
 
-            if (year % 4 == 0)
+            if (year % 400 == 0 || ( year % 4 == 0 && year %100 != 0))
             {
                 Console.WriteLine("This Year is Leap Year :" + year);
             }
@@ -21,8 +21,6 @@ label:
             {
                 Console.WriteLine("This not in leap year");
                 Console.WriteLine("Right input year");
-
-
             }
             goto label;
 

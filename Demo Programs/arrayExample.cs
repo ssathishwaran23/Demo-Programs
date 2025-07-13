@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo_Programs
 {
-    public class Palindrom
+    internal class arrayExample
     {
-
     }
 }
