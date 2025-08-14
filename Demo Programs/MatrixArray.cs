@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Demo_Programs
+﻿namespace Demo_Programs
 {
     public class RepeatedArray
     {
@@ -59,7 +53,7 @@ namespace Demo_Programs
                     Console.WriteLine($"Book Number {bookNumber[i]} => {freq[i]} times");
                 }
             }
-        }               
+        }
     }
 
 }
